@@ -14,6 +14,6 @@ channel.basic_publish(exchange='',
                       routing_key='hello_queue',
                       body='hello')
 
-print(" [x] Sent 'hello'")
+print("Sent 'hello'")
 
 connection.close()
