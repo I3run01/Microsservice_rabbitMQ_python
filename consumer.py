@@ -1,5 +1,3 @@
-# consumer.py
-
 import pika
 
 def callback(ch, method, properties, body):
